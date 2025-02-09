@@ -9,5 +9,5 @@ class Human:
 
 
 sig = inspect.signature(Human)
-for parameter in sig parameters.values():
+for parameter in sig.parameters.values():
     print(parameter.name, parameter.default)
